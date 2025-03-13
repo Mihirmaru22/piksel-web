@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Creative Studio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-container">
+            <a href="/" class="logo">PIKSEL</a>
+            <button class="menu-button" aria-label="Toggle menu">
+                <span class="menu-text">menu</span>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </button>
+        </div>
+    </header>
+
+    <main class="projects-page">
+        <div class="projects-header">
+            <h1>Check out our projects.</h1>
+            <div class="project-filter">
+                <label for="project-select">Project</label>
+                <select id="project-select">
+                    <option value="all">All Projects</option>
+                    <option value="visual-identity">Visual Identity</option>
+                    <option value="web-development">Web Development</option>
+                    <option value="branding">Branding</option>
+                    <option value="modeling">3D Modeling</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="projects-grid">
+            <article class="project-item" data-category="visual-identity">
+                <a href="#" class="project-link">
+                    <img src="/assets/5.png" alt="DOTSTATION VISUAL IDENTITY DESIGN">
+                    <div class="project-info">
+                        <h2>DOTSTATION VISUAL IDENTITY DESIGN</h2>
+                        <p>DOTSTATION</p>
+                    </div>
+                </a>
+            </article>
+            <article class="project-item" data-category="web-development">
+                <a href="#" class="project-link">
+                    <img src="/assets/6.png" alt="Busan Citizens Park 3D Web Development">
+                    <div class="project-info">
+                        <h2>Busan Citizens Park 3D Web Development</h2>
+                        <p>Busan Citizens Park</p>
+                    </div>
+                </a>
+            </article>
+            <article class="project-item" data-category="modeling">
+                <a href="#" class="project-link">
+                    <img src="/assets/2.png" alt="ADER ERROR Tote Bag Modeling">
+                    <div class="project-info">
+                        <h2>ADER ERROR Tote Bag Modeling</h2>
+                        <p>ADER ERROR</p>
+                    </div>
+                </a>
+            </article>
+            <article class="project-item" data-category="branding">
+                <a href="#" class="project-link">
+                    <img src="/assets/3.png" alt="JTL Brand Development">
+                    <div class="project-info">
+                        <h2>JTL Brand Development</h2>
+                        <p>JTL</p>
+                    </div>
+                </a>
+            </article>
+            <article class="project-item" data-category="branding">
+                <a href="#" class="project-link">
+                    <img src="/assets/4.png" alt="CALL OK SERVICE Brand Development">
+                    <div class="project-info">
+                        <h2>CALL OK SERVICE Brand Development</h2>
+                        <p>CALL OK SERVICE</p>
+                    </div>
+                </a>
+            </article>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html> 

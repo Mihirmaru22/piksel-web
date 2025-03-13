@@ -5,11 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ADW - Creative Studio</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
 </head>
 <body>
     <header class="header">
         <div class="header-container">
-            <a href="/" class="logo">MIHIR</a>
+            <a href="/" class="logo">PIKSEL</a>
             <button class="menu-button" aria-label="Toggle menu">
                 <span class="menu-text">menu</span>
                 <div class="hamburger">
@@ -55,7 +57,124 @@
             <video id="cube-video" src="/assets/cube_box_animation.mp4" autoplay muted loop playsinline></video>
         </section>
     </main>
+    
+    <section class="projects-section">
+        <div class="projects-header-main">
+            <h2 class="projects-title">Check out projects</h2>
+            <a href="project.html" class="more-projects-btn">More</a>
+        </div>
+        <div class="projects-container">
+            <button class="scroll-btn prev-btn">←</button>
+            <div class="projects-scroll">
+                <div class="project-card">
+                    <div class="project-image-container">
+                        <img src="/assets/1.png" alt="Busan Citizens Park 3D Web Development">
+                        <span class="project-category">3D Development</span>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Busan Citizens Park</h3>
+                        <p>Interactive 3D web development project showcasing the Busan Citizens Park experience.</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image-container">
+                        <img src="/assets/2.png" alt="ADER ERROR Tote Bag Modeling">
+                        <span class="project-category">3D Modeling</span>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">ADER ERROR</h3>
+                        <p>Innovative tote bag modeling project for ADER ERROR, combining style with functionality.</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image-container">
+                        <img src="/assets/3.png" alt="JTL Brand Development">
+                        <span class="project-category">Brand Design</span>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">JTL</h3>
+                        <p>Comprehensive brand development project for JTL, creating a strong visual identity.</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image-container">
+                        <img src="/assets/4.png" alt="CALL OK SERVICE Brand Development">
+                        <span class="project-category">Brand Design</span>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">CALL OK SERVICE</h3>
+                        <p>Strategic brand development for CALL OK SERVICE, focusing on modern design solutions.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="scroll-btn next-btn">→</button>
+        </div>
+    </section>
 
+    <footer class="footer">
+        <hr class="footer-line">
+        <div class="marquee">
+            <div class="marquee-content">
+                What problem can we solve for you? Let's create something amazing together. Get in touch with us today.
+            </div>
+        </div>
+        <hr class="footer-line">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h2>Newsletter</h2>
+                <p>Latest news directly in your inbox</p>
+                <button class="footer-button">Subscribe</button>
+            </div>
+            <div class="footer-section">
+                <h2>Contact</h2>
+                <p>Do you have any questions?</p>
+                <button class="footer-button">Get in touch</button>
+            </div>
+            <div class="footer-section">
+                <h2>Social Media</h2>
+                <p>Get in touch with us via social media.</p>
+                <div class="social-grid">
+                    <a href="#" class="social-icon">f</a>
+                    <a href="#" class="social-icon">in</a>
+                    <a href="#" class="social-icon">p</a>
+                    <a href="#" class="social-icon">yt</a>
+                    <a href="#" class="social-icon">x</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="company-section">
+                <h3>Company</h3>
+                <div class="company-links">
+                    <div class="company-column">
+                        <a href="#">About Us</a>
+                        <a href="#">Our Work</a>
+                        <a href="#">Services</a>
+                    </div>
+                    <div class="company-column">
+                        <a href="#">Our Process</a>
+                        <a href="#">Team</a>
+                        <a href="#">Contact</a>
+                    </div>
+                    <div class="company-column">
+                        <a href="#">Careers</a>
+                        <a href="#">News & Blog</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="copyright-content">
+                © 2025 Creative Studio. All rights reserved.
+                <span class="separator">|</span>
+                <a href="#">Terms of Service</a>
+                <span class="separator">|</span>
+                <a href="#">Privacy Policy</a>
+                <span class="separator">|</span>
+                <a href="#">Cookie Policy</a>
+            </div>
+        </div>
+    </footer>
     <script src="script.js"></script>
 </body>
 </html>  
